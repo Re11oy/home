@@ -1,0 +1,40 @@
+baseURL = "/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+theme = "hello-friend-ng"
+title = "Kirill Talaluev 👽"
+
+disableRSS      = true
+copyright       = ""
+enableRobotsTXT = false
+enableEmoji     = true
+
+[taxonomies]
+  tag = ""
+  category = ""
+
+[params]
+  customCSS = ["css/foo.css"]
+  homeSubtitle = "Software Developer"
+
+[params.logo]
+  logoText     = "$ cd /home/"
+  logoHomeLink = "/"
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "email"
+    url = "mailto:k@talaluev.me"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/re11oy"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/talaluev"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/Re11oy"
